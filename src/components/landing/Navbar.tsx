@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Pricing", href: "#pricing" },
   { label: "Who it's for", href: "#use-cases" },
   { label: "FAQ", href: "#faq" },
+  { label: "Demo", href: "/demo", isRoute: true },
 ];
 
 export function Navbar() {
@@ -51,13 +52,23 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <button
-                key={link.href}
-                onClick={() => scrollToSection(link.href)}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {link.label}
-              </button>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <button
+                  key={link.href}
+                  onClick={() => scrollToSection(link.href)}
+                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {link.label}
+                </button>
+              )
             ))}
           </div>
 
@@ -89,13 +100,24 @@ export function Navbar() {
           <div className="md:hidden py-4 border-t border-border animate-fade-up">
             <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
-                <button
-                  key={link.href}
-                  onClick={() => scrollToSection(link.href)}
-                  className="py-3 px-4 text-left text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg transition-colors"
-                >
-                  {link.label}
-                </button>
+                link.isRoute ? (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    className="py-3 px-4 text-left text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <button
+                    key={link.href}
+                    onClick={() => scrollToSection(link.href)}
+                    className="py-3 px-4 text-left text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg transition-colors"
+                  >
+                    {link.label}
+                  </button>
+                )
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border mt-2">
                 <Button variant="outline" asChild className="w-full">
