@@ -45,7 +45,7 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <span className="text-2xl font-display font-bold gradient-text">
-              LeadX
+              QuantLeads
             </span>
           </Link>
 

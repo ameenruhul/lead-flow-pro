@@ -48,7 +48,7 @@ export function Roadmap() {
             What's on the roadmap
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We're building LeadX to be your complete lead automation platform.
+            We're building QuantLeads to be your complete lead automation platform.
             Here's what's coming next.
           </p>
         </div>

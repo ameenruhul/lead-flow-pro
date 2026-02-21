@@ -95,7 +95,7 @@ const Demo = () => {
               <Sheet className="w-5 h-5 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-display font-bold text-foreground">LeadX</h1>
+              <h1 className="text-xl font-display font-bold text-foreground">QuantLeads</h1>
               <span className="text-xs text-muted-foreground">Demo Mode</span>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Demo = () => {
             </div>
             <div className="flex-1">
               <p className="text-sm font-medium text-foreground">Demo User</p>
-              <p className="text-xs text-muted-foreground">demo@leadx.io</p>
+              <p className="text-xs text-muted-foreground">demo@quantleads.io</p>
             </div>
             <button className="p-2 hover:bg-secondary rounded-lg transition-colors">
               <Settings className="w-4 h-4 text-muted-foreground" />

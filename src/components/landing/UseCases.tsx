@@ -39,7 +39,7 @@ export function UseCases() {
             Who it's for
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            LeadX is built for businesses that already use Google Sheets and want
+            QuantLeads is built for businesses that already use Google Sheets and want
             simple, powerful automation
           </p>
         </div>

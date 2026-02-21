@@ -8,7 +8,7 @@ const plans = [
     badge: "Beta",
     price: "$0",
     period: "forever",
-    description: "Perfect for testing LeadX with your first sheet",
+    description: "Perfect for testing QuantLeads with your first sheet",
     features: [
       "1 Google Sheet connection",
       "1 automation",
@@ -133,7 +133,7 @@ export function Pricing() {
 
         <p className="text-center text-sm text-muted-foreground mt-8 max-w-2xl mx-auto">
           Each email/SMS uses 1 credit. Extra per-credit pricing applies plus a
-          2.5% processing fee for payments handled by Quantiv (LeadX's billing
+          2.5% processing fee for payments handled by Quantiv (QuantLeads' billing
           backend).
         </p>
       </div>

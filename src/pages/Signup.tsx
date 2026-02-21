@@ -33,7 +33,7 @@ export default function Signup() {
       setIsLoading(false);
       toast({
         title: "Account created!",
-        description: "Welcome to LeadX. Let's get you started.",
+        description: "Welcome to QuantLeads. Let's get you started.",
       });
       navigate("/dashboard");
     }, 1000);
@@ -57,7 +57,7 @@ export default function Signup() {
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
             <Link to="/" className="text-3xl font-display font-bold gradient-text">
-              LeadX
+              QuantLeads
             </Link>
             <h1 className="text-2xl font-display font-semibold text-foreground mt-4">
               Get early access

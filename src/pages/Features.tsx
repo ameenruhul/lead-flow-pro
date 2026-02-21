@@ -544,7 +544,7 @@ const Features = () => {
               Every feature, <span className="gradient-text">explained</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              A deep dive into everything LeadX does — from automation triggers to credit billing. 
+              A deep dive into everything QuantLeads does — from automation triggers to credit billing. 
               See exactly how each piece works before you sign up.
             </p>
             <div className="flex flex-wrap justify-center gap-3">

@@ -18,7 +18,7 @@ const steps = [
   {
     icon: Sparkles,
     step: "03",
-    title: "Sit back and let LeadX work",
+    title: "Sit back and let QuantLeads work",
     description:
       "New leads get instant messages, your team gets alerts, and you see everything in your dashboard. It just works.",
   },
