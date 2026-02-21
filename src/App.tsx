@@ -14,6 +14,7 @@ import PricingPage from "./pages/PricingPage";
 import Onboarding from "./pages/Onboarding";
 import AppDashboard from "./pages/AppDashboard";
 import AppIntegrations from "./pages/AppIntegrations";
+import AppSheets from "./pages/AppSheets";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/app/onboarding" element={<Onboarding />} />
           <Route path="/app/dashboard" element={<AppDashboard />} />
           <Route path="/app/integrations" element={<AppIntegrations />} />
+          <Route path="/app/sheets" element={<AppSheets />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
