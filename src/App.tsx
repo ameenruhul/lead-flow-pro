@@ -16,6 +16,7 @@ import AppDashboard from "./pages/AppDashboard";
 import AppIntegrations from "./pages/AppIntegrations";
 import AppSheets from "./pages/AppSheets";
 import AppSheetMapping from "./pages/AppSheetMapping";
+import AppAutomations from "./pages/AppAutomations";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/app/integrations" element={<AppIntegrations />} />
           <Route path="/app/sheets" element={<AppSheets />} />
           <Route path="/app/sheets/:sheetId/mapping" element={<AppSheetMapping />} />
+          <Route path="/app/automations" element={<AppAutomations />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
