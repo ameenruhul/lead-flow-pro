@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <Link to="/" className="text-2xl font-display font-bold gradient-text">
-              LeadX
+              QuantLeads
             </Link>
             <p className="text-sm text-muted-foreground mt-1">
               Turn Google Sheets into an automated lead engine
@@ -21,7 +21,7 @@ export function Footer() {
             <Link to="/terms" className="hover:text-foreground transition-colors">
               Terms of Service
             </Link>
-            <a href="mailto:hello@leadx.io" className="hover:text-foreground transition-colors">
+            <a href="mailto:hello@quantleads.io" className="hover:text-foreground transition-colors">
               Contact
             </a>
           </div>
@@ -29,7 +29,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} LeadX. Early Access Beta.
+            © {new Date().getFullYear()} QuantLeads. Early Access Beta.
           </p>
         </div>
       </div>

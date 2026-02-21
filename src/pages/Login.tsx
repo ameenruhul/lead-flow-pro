@@ -46,7 +46,7 @@ export default function Login() {
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
             <Link to="/" className="text-3xl font-display font-bold gradient-text">
-              LeadX
+              QuantLeads
             </Link>
             <h1 className="text-2xl font-display font-semibold text-foreground mt-4">
               Welcome back

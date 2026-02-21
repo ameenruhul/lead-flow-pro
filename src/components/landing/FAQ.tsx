@@ -9,12 +9,12 @@ const faqs = [
   {
     question: "Do I need any technical skills?",
     answer:
-      "Not at all! LeadX is designed for non-technical business owners. If you can use Google Sheets, you can use LeadX. Our AI helps with column mapping and even suggests email/SMS content for you.",
+      "Not at all! QuantLeads is designed for non-technical business owners. If you can use Google Sheets, you can use QuantLeads. Our AI helps with column mapping and even suggests email/SMS content for you.",
   },
   {
-    question: "How does LeadX connect to my Google Sheets?",
+    question: "How does QuantLeads connect to my Google Sheets?",
     answer:
-      "Simply sign in with your Google account, select the sheet you want to use, and LeadX will automatically detect your columns. You can map them to lead fields like name, email, and phone with a few clicks.",
+      "Simply sign in with your Google account, select the sheet you want to use, and QuantLeads will automatically detect your columns. You can map them to lead fields like name, email, and phone with a few clicks.",
   },
   {
     question: "Will my clients see that I'm using automation?",

@@ -63,7 +63,7 @@ export function DeepFeatures() {
             Powerful Features
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mt-2 mb-4">
-            What LeadX Can Do
+            What QuantLeads Can Do
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Everything you need to automate your lead follow-ups

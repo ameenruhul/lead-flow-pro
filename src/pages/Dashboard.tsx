@@ -83,7 +83,7 @@ export default function Dashboard() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="text-2xl font-display font-bold gradient-text">
-              LeadX
+              QuantLeads
             </Link>
             <Button variant="ghost" size="sm" asChild>
               <Link to="/">
@@ -100,7 +100,7 @@ export default function Dashboard() {
         {/* Welcome section */}
         <div className="mb-8">
           <h1 className="text-3xl font-display font-bold text-foreground">
-            Welcome to LeadX! 👋
+            Welcome to QuantLeads! 👋
           </h1>
           <p className="text-muted-foreground mt-2">
             You're in! Here's your early access dashboard preview.
@@ -123,7 +123,7 @@ export default function Dashboard() {
                 dashboard is a preview of what's coming.
               </p>
               <Button variant="outline" size="sm" className="mt-4" asChild>
-                <a href="mailto:hello@leadx.io">
+                <a href="mailto:hello@quantleads.io">
                   Get notified on launch
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
