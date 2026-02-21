@@ -11,6 +11,7 @@ import Demo from "./pages/Demo";
 import Features from "./pages/Features";
 import Integrations from "./pages/Integrations";
 import PricingPage from "./pages/PricingPage";
+import Onboarding from "./pages/Onboarding";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/features" element={<Features />} />
           <Route path="/integrations" element={<Integrations />} />
           <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/app/onboarding" element={<Onboarding />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
