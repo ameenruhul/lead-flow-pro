@@ -20,6 +20,7 @@ import AppAutomations from "./pages/AppAutomations";
 import AppAutomationBuilder from "./pages/AppAutomationBuilder";
 import AppTemplates from "./pages/AppTemplates";
 import AppTemplateEditor from "./pages/AppTemplateEditor";
+import AppMessages from "./pages/AppMessages";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/app/automations/new" element={<AppAutomationBuilder />} />
           <Route path="/app/templates" element={<AppTemplates />} />
           <Route path="/app/templates/new" element={<AppTemplateEditor />} />
+          <Route path="/app/messages" element={<AppMessages />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
