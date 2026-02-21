@@ -100,7 +100,7 @@ export default function AppAutomations() {
               {activeCount} active · {automations.length} total
             </p>
           </div>
-          <Button onClick={() => setShowNewModal(true)}>
+          <Button onClick={() => navigate("/app/automations/new")}>
             <Plus className="h-4 w-4 mr-1" /> New Automation
           </Button>
         </div>
