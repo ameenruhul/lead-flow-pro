@@ -10,6 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import Demo from "./pages/Demo";
 import Features from "./pages/Features";
 import Integrations from "./pages/Integrations";
+import PricingPage from "./pages/PricingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/demo" element={<Demo />} />
           <Route path="/features" element={<Features />} />
           <Route path="/integrations" element={<Integrations />} />
+          <Route path="/pricing" element={<PricingPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
