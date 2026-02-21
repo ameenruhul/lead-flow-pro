@@ -22,6 +22,7 @@ import AppTemplates from "./pages/AppTemplates";
 import AppTemplateEditor from "./pages/AppTemplateEditor";
 import AppMessages from "./pages/AppMessages";
 import AppLeads from "./pages/AppLeads";
+import AppLeadProfile from "./pages/AppLeadProfile";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
           <Route path="/app/templates/new" element={<AppTemplateEditor />} />
           <Route path="/app/messages" element={<AppMessages />} />
           <Route path="/app/leads" element={<AppLeads />} />
+          <Route path="/app/leads/:leadId" element={<AppLeadProfile />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
