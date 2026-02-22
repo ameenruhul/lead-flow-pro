@@ -26,6 +26,7 @@ import AppLeadProfile from "./pages/AppLeadProfile";
 import AppAnalytics from "./pages/AppAnalytics";
 import AppBilling from "./pages/AppBilling";
 import AppReferrals from "./pages/AppReferrals";
+import AppSettings from "./pages/AppSettings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -60,6 +61,7 @@ const App = () => (
           <Route path="/app/analytics" element={<AppAnalytics />} />
           <Route path="/app/billing" element={<AppBilling />} />
           <Route path="/app/referrals" element={<AppReferrals />} />
+          <Route path="/app/settings" element={<AppSettings />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
